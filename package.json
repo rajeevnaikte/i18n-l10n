@@ -1,0 +1,16 @@
+{
+  "name": "rn-i18n",
+  "version": "1.0.0",
+  "description": "i18n utiltiy",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "test": "echo \"swagger2-client\" && exit 0",
+    "build": "babel IntlFacade.js --out-file index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
