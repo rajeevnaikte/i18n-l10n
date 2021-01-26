@@ -2,15 +2,37 @@
   "name": "rn-i18n",
   "version": "1.0.0",
   "description": "i18n utiltiy",
-  "main": "index.js",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
-  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
-    "test": "echo \"swagger2-client\" && exit 0",
-    "build": "babel IntlFacade.js --out-file index.js"
+    "test": "jest",
+    "build": "tsc"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeevnaikte/squid-eval.git"
+  },
+  "keywords": [
+    "expression",
+    "rule",
+    "evaluator",
+    "engine"
+  ],
+  "author": "Rajeev N",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeevnaikte/squid-eval/issues"
+  },
+  "homepage": "https://github.com/rajeevnaikte/squid-eval#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
 }
